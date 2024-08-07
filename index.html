@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Smart Energy Logo">
+        </div>
+        <nav>
+            <div class="sidebar-link">
+                <img src="img/painel.png" alt="">
+                <div>Dashboard</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="img/mundo.png" alt="">
+                <div>Map</div>
+            </div>
+
+            <div class="sidebar-link">
+                <img src="img/tabela.png" alt="">
+                <div>Tabela</div>
+            </div>
+        </nav>
+    </div>
+    <div class="main-content">
+        <header>
+            <div class="left-header">
+                <div class="home-icon-and-input">
+                    <i class="fas fa-home"> / Table</i>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Type here...">
+                        <img class="icon-lupa" src="img/search-dbfe5cbb.svg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="right-header">
+              <i class="fas fa-cog"></i>
+              <i class="fas fa-bell"></i>
+              <div class="logout-btn">
+                  <i class="fas fa-sign-out-alt"></i>
+              </div>
+          </div>
+        </header>
+        <section class="table-section">
+            <h2>Authors table</h2>
+            <table id="authors-table">
+                <thead>
+                    <tr>
+                        <th>AUTHOR</th>
+                        <th>FUNCTION</th>
+                        <th>STATUS</th>
+                        <th>EMPLOYED</th>
+                        <th>ACTION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows will be inserted by JavaScript -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
